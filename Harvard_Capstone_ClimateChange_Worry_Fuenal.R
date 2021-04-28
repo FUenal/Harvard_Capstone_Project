@@ -169,7 +169,7 @@ table(testData$wrclmch)
 ## How many worried about climate change?
 
 # Using the 'lares' package: Works only in the HTML format
-trainData %>% freqs(wrclmch, plot = T, results = F, abc = TRUE)
+# trainData %>% freqs(wrclmch, plot = T, results = F, abc = TRUE)
 
 # Same as above but using ggplot
 plot1 <- trainData %>% 
@@ -185,7 +185,7 @@ plot1
 ## climate worry across countries
 
 # Using the 'lares' package: Works only in the HTML format
-trainData %>% distr(wrclmch, cntry, clean = TRUE, abc = FALSE)
+# trainData %>% distr(wrclmch, cntry, clean = TRUE, abc = FALSE)
 
 # Same as above but using ggplot
 plot2 <- ggplot(trainData, aes(wrclmch)) + 
@@ -224,7 +224,7 @@ trainData %>% distr(wrclmch, lrscale)
 ## Climate worry across genders (1: Male // 2: Female)
 
 # Using the 'lares' package: Works only in the HTML format
-trainData %>% distr(wrclmch, gndr)
+# trainData %>% distr(wrclmch, gndr)
 
 # Same as above but using ggplot
 plot4 <- ggplot(trainData, aes(wrclmch, ..count..)) + 
@@ -790,4 +790,7 @@ plot(varimp_rf, main="Variable Importance with Random Forest")
 
 
 best_predict_model
+
+
+
 

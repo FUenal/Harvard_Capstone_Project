@@ -84,7 +84,7 @@ Alternatively to downloading from the above the link, one can also use the 'essu
  
 ### 3.2 Download
 
-For this project, I used the second method, and downloaded the data using the 'essurvey'. Please note that you will need to first set an account with ESS and than use your email address to be able to download the data if you choose to use the 'essurvey'. The code to download the data via the 'essurvey' package. is in the accompanying R script. However, due to privacy concerns, I am not using this method in this project. Instead, the data is available in my github repository. I have also uploaded it into the edX repository. Executing the current file should automatically download the data from my github. If that does not work, than please download the data from edX and load it locally.
+For this project, I used the second method, and downloaded the data using the 'essurvey'. Please note that you will need to first set an account with ESS and than use your email address to be able to download the data if you choose to use the 'essurvey'. The code to download the data via the 'essurvey' package is in the accompanying R script. However, due to privacy concerns, I am not using this method in this project. Instead, the data is available in my github repository. Executing the current file should automatically download the data from my github. If that does not work, please download the data from github directly and load it locally (code provided in R script and rmd file but commented #).
 
 ```{r data-download, warning=FALSE, message=FALSE, echo=FALSE}
 ## Download ESS Data
